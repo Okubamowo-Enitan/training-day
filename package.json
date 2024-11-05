@@ -1,0 +1,16 @@
+{
+	"name": "tailwindcssclassone",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tailwindcss -i ./index.css -o ./output.css",
+		"watch": "npx tailwindcss -i ./index.css -o ./output.css --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.4.14"
+	}
+}
